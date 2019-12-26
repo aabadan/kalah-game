@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script th:src="@{/js/game.js}"></script>
+    <title>Board</title>
+</head>
+<body>
+<div id="game-panel">
+    <div id="game-header">KALAHA GAME</div>
+    <div class="player-name">Player 2</div>
+    <div id="game-board">
+        <div id="kalaha2" class="kalaha"></div>
+        <div id=pit-panel>
+            <div class="row">
+                <div id="pit-13" class="pit"></div>
+                <div id="pit-12" class="pit"></div>
+                <div id="pit-11" class="pit"></div>
+                <div id="pit-10" class="pit"></div>
+                <div id="pit-9" class="pit"></div>
+                <div id="pit-8" class="pit"></div>
+            </div>
+            <div class="row">
+                <div id="pit-1" class="pit"></div>
+                <div id="pit-2" class="pit"></div>
+                <div id="pit-3" class="pit"></div>
+                <div id="pit-4" class="pit"></div>
+                <div id="pit-5" class="pit"></div>
+                <div id="pit-6" class="pit"></div>
+            </div>
+        </div>
+        <div id="kalaha1" class="kalaha"></div>
+    </div>
+    <div class="player-name">Player 1</div>
+    <div id="message"></div>
+</div>
+</body>
+</html>
